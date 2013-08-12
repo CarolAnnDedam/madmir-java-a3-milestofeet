@@ -2,11 +2,19 @@
 public class MilesToFeet {
 
 	public static void main(String[] args) {
-		// -------INSTRUCTIONS-------
-		// 1. Refer to exercise 4 on page 113 of the Joyce Farrell book (chapter 2 PDF)
-		// 2. In this file, complete part (a) of this exercise
-		// 3. For this class, you WILL NOT receive an input from the user.
-
+		//* Declare and initialize named constant FEET_PER_MILE
+		final int FEET_PER_MILE = 5280;
+		
+		//*Declare and initialize named variables 
+		float  uncleMiles = 8.5f;
+		float uncleFeet = uncleMiles * FEET_PER_MILE;
+		
+		//Display output
+		System.out.println ("The distance to my uncles house is " + uncleMiles + "miles. ");
+		System.out.println("That's " + uncleFeet + " feet ");
+		
+		
+		
 	}
 
 }
